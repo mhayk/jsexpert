@@ -1,0 +1,18 @@
+### Authenticating with correct credentials
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+    "username": "mhayk",
+    "password": "123"
+}
+
+
+### Authenticating with wrong credentials
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+    "username": "Xuxa",
+    "password": "1234"
+}

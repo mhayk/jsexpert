@@ -1,0 +1,23 @@
+[
+    {
+        "id": "8ba627fb-c490-45b2-a7a0-904f9bf211f2",
+        "name": "Prius",
+        "releaseYear": 2021,
+        "available": true,
+        "gasAvailable": true
+    },
+    {
+        "id": "8a65bc29-d9be-439e-8203-0d4ef6d75ba7",
+        "name": "Corvette",
+        "releaseYear": 2022,
+        "available": true,
+        "gasAvailable": true
+    },
+    {
+        "id": "97f1bb34-7359-494c-ad21-9b9c3fcd7593",
+        "name": "Model S",
+        "releaseYear": 2021,
+        "available": true,
+        "gasAvailable": true
+    }
+]

@@ -17,6 +17,27 @@ describe('Person', () => {
         }
 
         expect(person).to.deep.equal(expected)
+    })
 
+    it('should format values', () => {
+        const person = new Person({
+            id: '1',
+            vehicles: ['Bike', 'Car'],
+            kmTraveled: '20000',
+            from: '2022-01-01',
+            to: '2022-02-01'
+        })
+
+        const result = person.formatted('pt-BR')
+
+        const expected = {
+            id: 1,
+            vehicles: 'Bike e Car',
+            kmTraveled: '20.000 km',
+            from: '01 de janeiro de 2022',
+            to: '01 de fevereiro de 2022'
+        }
+
+        expect(result).to.deep.equal(expected)
     })
 })
